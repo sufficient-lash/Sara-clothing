@@ -113,7 +113,7 @@ nav {
 }
 .navlink li a.active::after,
 .navlink li a:hover::after {
-	content: '';
+	content: "";
 	width: 30%;
 	height: 3px;
 	background-color: var(--green);
@@ -660,7 +660,7 @@ footer .copyright {
 	cursor: pointer;
 }
 #blog .blog-box .blog-details a::after {
-	content: '';
+	content: "";
 	width: 50px;
 	height: 1.5px;
 	background-color: #000;
@@ -958,6 +958,9 @@ footer .copyright {
 		background-color: #e3e6f3;
 		box-sizing: var(--box-shadow);
 		padding: 80px 0 0 10px;
+	}
+	#navbar .active {
+		right: 0px;
 	}
 	.navlink li {
 		margin-bottom: 25px;

@@ -1,11 +1,16 @@
-const bar = document.getElementById('bar');
-const van = document.getElementById('navbar');
+const bar = document.getElementById("bar");
+const nav = document.getElementById("navbar");
+if (bar) {
+	bar.addEventListener("click", () => {
+		nav.classList.add("active");
+	});
+}
 
 // let displayNav =
 
 // PRODUCTS DETAILS
-let mainImg = document.getElementById('main-img');
-let smallImg = document.getElementsByClassName('small-img');
+let mainImg = document.getElementById("main-img");
+let smallImg = document.getElementsByClassName("small-img");
 
 smallImg[0].onclick = function () {
 	mainImg.src = smallImg[0].src;
@@ -19,5 +24,3 @@ smallImg[2].onclick = function () {
 smallImg[3].onclick = function () {
 	mainImg.src = smallImg[3].src;
 };
-
-
