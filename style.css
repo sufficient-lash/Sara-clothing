@@ -68,6 +68,7 @@ body {
 /* main {
 	border: 1px solid green;
 } */
+
 /* NAVIGATION STARTS */
 nav {
 	display: flex;
@@ -677,8 +678,8 @@ footer .copyright {
 	color: #c9cbce;
 	z-index: -8;
 }
-/* ABOUT PAGE START */
 
+/* ABOUT PAGE START */
 #page-header .about-header {
 	background-image: url(image/contact-bg.jpg);
 }
@@ -720,6 +721,7 @@ footer .copyright {
 	width: 100%;
 	border-radius: 20px;
 }
+
 /* CONTACT PAGE START */
 #contact {
 	display: flex;
