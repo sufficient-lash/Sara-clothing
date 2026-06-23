@@ -6,8 +6,6 @@ if (bar) {
 	});
 }
 
-// let displayNav =
-
 // PRODUCTS DETAILS
 let mainImg = document.getElementById("main-img");
 let smallImg = document.getElementsByClassName("small-img");

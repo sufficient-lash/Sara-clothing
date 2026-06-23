@@ -562,6 +562,7 @@ footer .copyright {
 	border-radius: 4px;
 	color: #fff;
 	font-weight: 600;
+	margin-inline: .3rem;
 }
 #pagnation a i {
 	font-size: 16px;
